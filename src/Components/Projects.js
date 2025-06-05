@@ -1,23 +1,23 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
 import NewsletterImage from '../images/NewsletterImage.png';
-import RogfreeImage from '../images/RogfreeImage.png';
-import TindogImage from '../images/TindogImage.png';
-import WigglesImage from '../images/WigglesImage.png';
+import OnlineQuizImage from '../images/OnlineQuiz.png';
+import BloodDonerImage from '../images/Blood-Doner.png';
+import ShopingImage from '../images/Shoping.png';
+import CharitAble from '../images/CharitAble.png';
 
 const Projects = () => {
   return (
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={WigglesImage} projectName="Wiggles" />
-        <ProjectBox projectPhoto={NewsletterImage} projectName="Newsletter" />
-        <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        <ProjectBox projectPhoto={ShopingImage} projectName="Shoping" />
+        <ProjectBox projectPhoto={CharitAble} projectName="Newsletter" />
+        <ProjectBox projectPhoto={OnlineQuizImage} projectName="OnlineQuiz" />
+        <ProjectBox projectPhoto={BloodDonerImage} projectName="BloodDoner" />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
