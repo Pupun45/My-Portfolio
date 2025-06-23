@@ -12,7 +12,7 @@ const About = () => {
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
             Hi, my name is <b>Jyotiranjan Behera</b> and I am from Cuttack, India.
-            I'm a <b>Frontend developer</b> and a final year college student pursuing <b>BCA</b>. <br/><br/>
+            I'm a <b>Frontend developer</b> and a final year college student pursuing <b>MCA</b>. <br/><br/>
             I have done an internship as a <b>Frontend developer</b> at Way India which is a fintech startup.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
