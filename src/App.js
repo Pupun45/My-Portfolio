@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { createRoot } from 'react-dom/client';
 import { useEffect, useState } from "react";
 import Nav from './Components/Navbar';
 import Footer from "./Components/Footer";
