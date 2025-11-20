@@ -38,7 +38,7 @@ const Home = () => {
             that impacts lives. 
             I want to do work that challenges me as a developer & work that I can 
             be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Java</b> and am working on a few 
+            I am fluent in <b>C</b> and know a bit of <b>Java Script</b> and am working on a few 
             projects in the <b>React.</b>Js<br />
             {/* I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br /> */}
             <br/>Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
