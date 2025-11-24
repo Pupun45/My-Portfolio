@@ -4,25 +4,24 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
 
-  const desc = {
-    BloodDonerDesc: "A simple Blood Donation Management System built with HTML, CSS, JavaScript frontend and PHP backend running on an Apache server with MySQL database.",
-    BloodDonerGithub: "https://github.com/Pupun45/Blood-Doner-Finder",
-    BloodDonerWebsite: " https://pupun45.github.io/Blood-Doner-Finder/",
+const desc = {
+  BloodDonerDesc: "A simple Blood Donation Management System built with HTML, CSS, JavaScript frontend and PHP backend running on an Apache server with MySQL database.",
+  BloodDonerGithub: "https://github.com/Pupun45/Blood-Doner-Finder",
+  BloodDonerWebsite: "https://pupun45.github.io/Blood-Doner-Finder/",
 
-    OnlineQuizDesc: "Online-Quiz-Management-System",
-    OnlineQuizGithub: "https://github.com/Pupun45/Online-Quiz-Management-System",
-    OnlineQuizWebsite: "https://pupun45.github.io/Online-Quiz-Management-System/",
+  OnlineQuizDesc: "Online-Quiz-Management-System",
+  OnlineQuizGithub: "https://github.com/Pupun45/Online-Quiz-Management-System",
+  OnlineQuizWebsite: "https://pupun45.github.io/Online-Quiz-Management-System/",
 
-    NewsletterDesc: "",
-    NewsletterGithub: "",
-    NewsletterWebsite: "",
+  VegitableShopDesc: "Vegetable Shop",
+  VegitableShopGithub: "https://github.com/Pupun45/Vegetable-Shop-",
+  VegitableShopWebsite: "https://vegies-shop.netlify.app",
 
-    ShopingDesc: "An Ornament e-commerce store.",
-    ShopingGithub: "https://github.com/Pupun45/Shoping.web",
-    ShopingWebsite: "https://pupun45.github.io/Shoping.web/",
-  };
+  ShopingDesc: "An Ornament e-commerce store.",
+  ShopingGithub: "https://github.com/Pupun45/Shoping.web",
+  ShopingWebsite: "https://pupun45.github.io/Shoping.web/",
+};
 
-  
   const githubLink = desc[projectName + 'Github'];
   const websiteLink = desc[projectName + 'Website'];
   const description = desc[projectName + 'Desc'];
