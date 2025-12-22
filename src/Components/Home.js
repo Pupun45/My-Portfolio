@@ -46,6 +46,7 @@ const Home = () => {
         </div>
         <Tilt>
           <img className='Avatar' src={Avatar} alt="" />
+          {/* <p>heloo</p> */}
         </Tilt>
       </div>
     </div>
