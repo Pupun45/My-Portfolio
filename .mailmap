@@ -1,0 +1,7 @@
+# .mailmap — Canonical author name mapping
+# This file ensures "Jyotiranjan Behera" is always displayed
+# as the author regardless of the git identity used at commit time.
+
+Jyotiranjan Behera <jyotiranjanbehera282@gmail.com> Pupunfzx <beheraj542@gmail.com>
+Jyotiranjan Behera <jyotiranjanbehera282@gmail.com> Pupunfzx <jyotiranjanbehera282@gmail.com>
+Jyotiranjan Behera <jyotiranjanbehera282@gmail.com> <beheraj542@gmail.com>

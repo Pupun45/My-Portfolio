@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "Jyotiranjan Behera",
+    "email": "jyotiranjanbehera282@gmail.com",
+    "url": "https://github.com/Pupun45"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
