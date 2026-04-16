@@ -4,23 +4,40 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
 
-const desc = {
-  BloodDonerDesc: "A simple Blood Donation Management System built with HTML, CSS, JavaScript frontend and PHP backend running on an Apache server with MySQL database.",
-  BloodDonerGithub: "https://github.com/Pupun45/Blood-Doner-Finder",
-  BloodDonerWebsite: "https://pupun45.github.io/Blood-Doner-Finder/",
+  const desc = {
+    BloodDonerDesc: "A simple Blood Donation Management System built with HTML, CSS, JavaScript frontend and PHP backend running on an Apache server with MySQL database.",
+    BloodDonerGithub: "https://github.com/Pupun45/Blood-Bank",
+    BloodDonerWebsite: "https://blood-doner-finder.vercel.app/",
 
-  OnlineQuizDesc: "Online-Quiz-Management-System",
-  OnlineQuizGithub: "https://github.com/Pupun45/Online-Quiz-Management-System",
-  OnlineQuizWebsite: "https://pupun45.github.io/Online-Quiz-Management-System/",
+    VegitableShopDesc: "Vegetable Shop",
+    VegitableShopGithub: "https://github.com/Pupun45/Vegetable-Shop-",
+    VegitableShopWebsite: "https://vegies-shop.netlify.app",
 
-  VegitableShopDesc: "Vegetable Shop",
-  VegitableShopGithub: "https://github.com/Pupun45/Vegetable-Shop-",
-  VegitableShopWebsite: "https://vegies-shop.netlify.app",
+    BloodDonerDesc: "Blood Donation Management System",
+    BloodDonerGithub: "https://github.com/Pupun45/Blood-Bank",
+    BloodDonerWebsite: "https://blood-doner-finder.vercel.app/",
 
-  ShopingDesc: "An Ornament e-commerce store.",
-  ShopingGithub: "https://github.com/Pupun45/Shoping.web",
-  ShopingWebsite: "https://pupun45.github.io/Shoping.web/",
-};
+    TourismPlaceDesc: "Tourism Place Web App",
+    TourismPlaceGithub: "https://github.com/Pupun45/Tourism-Management-System",
+    TourismPlaceWebsite: "https://tourism-management-system-pi.vercel.app/",
+
+    NextJsPortfolioDesc: "Next.js Portfolio Website",
+    NextJsPortfolioGithub: "https://github.com/Pupun45/Portfolio-on-Next.js",
+    NextJsPortfolioWebsite: "https://portfolio-jrb.vercel.app/",
+
+    WaterDispensionDesc: "Water Dispension System",
+    WaterDispensionGithub: "https://github.com/ionode-cloud/Water-Dispension-pro",
+    WaterDispensionWebsite: "https://water-dispenser.ionode.cloud/",
+
+    WaterPollutionDesc: "Water Pollution Monitoring System",
+    WaterPollutionGithub: "https://github.com/ionode-cloud/water-pollution",
+    WaterPollutionWebsite: "https://waterpollution.ionode.cloud/",
+
+    AiSolarCleaningRobotDesc: "AI Based Solar Cleaning Robot",
+    AiSolarCleaningRobotGithub: "https://github.com/ionode-cloud/Ai-Based-Solar-Cleaning-Robot",
+    AiSolarCleaningRobotWebsite: "https://solar-clening.ionode.cloud/",
+
+  };
 
   const githubLink = desc[projectName + 'Github'];
   const websiteLink = desc[projectName + 'Website'];
