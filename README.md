@@ -15,7 +15,7 @@
 
 ## 🌐 Live Demo
 
-> Coming soon / Currently hosted locally via Vite dev server.
+> https://jyoti-portfolio.ionode.cloud/
 
 ---
 
