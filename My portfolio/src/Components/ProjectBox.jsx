@@ -5,9 +5,6 @@ import { CgFileDocument } from "react-icons/cg";
 const ProjectBox = ({ projectPhoto, projectName }) => {
 
   const desc = {
-    BloodDonerDesc: "A simple Blood Donation Management System built with HTML, CSS, JavaScript frontend and PHP backend running on an Apache server with MySQL database.",
-    BloodDonerGithub: "https://github.com/Pupun45/Blood-Bank",
-    BloodDonerWebsite: "https://blood-doner-finder.vercel.app/",
 
     VegitableShopDesc: "Vegetable Shop",
     VegitableShopGithub: "https://github.com/Pupun45/Vegetable-Shop-",
